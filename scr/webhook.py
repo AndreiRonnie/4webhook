@@ -44,7 +44,7 @@ def talkme_webhook():
 # Остальные роуты, если нужны
 @app.route('/', methods=['GET'])
 def index():
-    return "Server is running", 200
+    return "Сервер запущен", 200
 
 
 if __name__ == '__main__':
